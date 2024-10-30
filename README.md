@@ -17,6 +17,7 @@ Start by cloning the repository to your local machine. Open your terminal and ru
 
 bash:
 git clone https://github.com/objelov/AQA_Test_task.git
+
 cd AQA_Test_task
 
 2. **Install Node.js**
