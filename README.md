@@ -16,15 +16,14 @@ Follow these steps to install the necessary dependencies for the project:
 Start by cloning the repository to your local machine. Open your terminal and run:
 
 bash:
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
+git clone https://github.com/objelov/AQA_Test_task.git
+cd AQA_Test_task
 
 2. **Install Node.js**
 
-Ensure you have Node.js installed. You can check if it’s installed by running:
+Please make sure you have Node.js installed. You can check if it’s installed by running:
 
 bash:
-
 node -v
 
 If it's not installed, download and install it from the [Node.js website](https://nodejs.org/dist/v20.15.0/).
@@ -34,7 +33,6 @@ If it's not installed, download and install it from the [Node.js website](https:
 Once you are in the project directory, run the following command to install all the dependencies listed in package.json:
 
 bash:
-
 npm install
 
 This command will install both the regular and development dependencies required for the project.
@@ -44,7 +42,6 @@ This command will install both the regular and development dependencies required
 If Cypress is not listed in your package.json, install it separately as a development dependency:
 
 bash:
-
 npm install cypress --save-dev
 
 **Verify Installation of Cypress**
@@ -58,13 +55,6 @@ This command checks if Cypress is installed correctly and displays the installed
 
 Now you're all set with the dependencies installed! You can proceed to set up your environment and start running tests.
 
-**Install faker**
-
-Additionaly you need to install faker. Open the terminal inside project and run:
-
-bash:
-npm install @faker-js/faker --save-dev
-
 
 ## Running Tests
 
@@ -75,7 +65,6 @@ There are two main options how you can run tests within that project using Cypre
 To run tests in that mode in terminal run:
 
 bash:
-
 npx cypress open
 
 After that in the opened window:
@@ -90,7 +79,6 @@ Waiting until all tests run!
 To run tests in that mode in terminal run:
 
 bash:
-
 npx cypress run
 
 Waiting until all tests run!
